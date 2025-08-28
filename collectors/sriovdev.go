@@ -28,7 +28,7 @@ var (
 	sysClassNet                = flag.String("path.sysclassnet", "/sys/class/net", "Path to sys/class/net/ on host")
 	pfNameFile                 = "net"
 	netClassFile               = "class"
-	netClass             int64 = 0x020000
+	netClass             int64 = 0x020700
 	vfStatsSubsystem           = "vf"
 	vfStatsCollectorName       = "vfstats"
 
